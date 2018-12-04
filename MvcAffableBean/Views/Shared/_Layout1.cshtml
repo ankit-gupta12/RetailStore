@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - OP Sweets & Restaurant</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")    
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>    
+    <style>
+        .enqBlock {
+            padding: 10px 0;
+            text-align: center;
+            font-family: 'oswaldlight',Helvetica;
+            font-size: 22px;
+            width: 100%;
+            height: 60px;
+            background: #EC286F;
+            color: #fff;
+        }
+
+        .copyright {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #333;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;            
+            color: white;
+            height: 40px;
+            text-align: center;
+            background: #141414;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .modal-content {
+            width: 400px !important;
+            margin: 30px auto !important;
+        }       
+}
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@{Html.RenderAction("CartSummary", "ShoppingCart");}</li>
+                    <li>
+                        @if (Request.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Welcome " + User.Identity.Name + "   Logout", "LogOff", "Accounts")
+                        }
+                        else
+                        {
+                            @*@Html.ActionLink("Login", "LogOn", "Accounts" , new { id ="{anclogon}"})*@ 
+                            <a id="anclogon" >Login</a>
+                        }
+                    </li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" })</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container body-content">
+        <div id="exampleModalLong" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-body">
+                <div id="partial"></div>
+            </div>
+        </div>
+        @RenderBody()
+        <hr />        
+            <div class="footer">
+                <div>We Take Party Orders... <a href="/contact-us#enquire" class="btn btn-lg btn-default">Enquire Now</a></div>                
+            </div>  
+    </div>     
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Content/Js/ResponsiveSlider.js"></script>
+    <script type="text/javascript">
+        $(".rslides").responsiveSlides({
+            auto: true, // Boolean: Animate automatically, true or false
+            speed: 500 // Integer: Speed of the transition, in milliseconds
+        });
+    </script>
+    <script type="text/javascript">  
+        $("#anclogon").click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: '@Url.Action("Logon","Accounts")',
+                type: 'GET',
+                cache: false,
+                //data: { meter_id: meterId }
+            }).done(function (result) {
+                console.log(result);
+                // console.log(result + "123");
+                $('#partial').html(result);
+                $("#exampleModalLong").show();
+            }).fail(function (result) {
+                console.log("Ajax Fail");
+            }).error(function (result) {
+                console.log("Ajax Error");
+            });
+        });
+    </script>
+</body>
+</html>

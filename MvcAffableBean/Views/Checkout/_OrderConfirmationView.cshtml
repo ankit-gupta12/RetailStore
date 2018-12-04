@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Order Placed</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Order Placed Successfully
+                </div>
+                <div class="panel-body">
+                    <form name="myform">
+                        <div class="form-group">
+                            <p>Thanks for your order! Your order id is: @Model</p>
+                            <p>Please pay Rs.@Model at the tie of delivery </p>
+                            <p>your order will reach you in 45 min.you will recieve a SS when order dispatched to you.</p>
+                            How about ordering more delicious sweets in our
+                            @Html.ActionLink("store", "Index", "Home")
+                        </div>                        
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

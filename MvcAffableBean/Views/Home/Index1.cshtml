@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .thumbnail:hover{border-color:#ff6a00; box-shadow:0 0 0 4px #ff6a00}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+@*<div class="slider hidden-xs">
+    <ul class="rslides">
+        <li><img src="~/Content/Images/bakery.png" alt=""/></li>
+        <li><img src="~/Content/Images/dairy.png" alt=""/></li>
+        <li><img src="~/Content/Images/fruitandveg.png" alt=""/></li>
+        <li><img src="~/Content/Images/meat.png" alt=""/></li>
+    </ul>
+</div>*@
+<br/>
+<div class="mobToggle">
+    <ul class="list-inline headerBtn">        
+        <li><a href="~/StoreFront/Index/1" style="color:#fff;" class="btn btn-site">Order Online</a></li>
+    </ul>
+</div>
+@*<h3 class="text-center">Click on a category below to get started</h3><br/>*@
+ 
+    <div class="w3-content w3-display-container">
+
+        <div class="w3-display-container mySlides">
+            <img src="~/Content/Images/11.jpg" style="width:100%">            
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                Dhoda
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="~/Content/Images/5.jpg" style="width:100%">            
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                Sweets
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="~/Content/Images/ladoo.jpg" style="width:100%">            
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                Ladoo
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="~/Content/Images/north.jpg" style="width:100%">            
+            <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                North Indian Cusine
+            </div>
+        </div>
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        <br /><br />
+        <div col-md-12>
+            <div class="welcome show-grid">
+                <h3 class="title text-uppercase">About Us</h3>
+                <p>A staggering chronicle of six decades and still going strong, Karachi Bakery has emerged as a &quot;<strong>True Icon of Hyderabad Baking</strong>&quot; with a reputation that is unmatched to the core. Always a step ahead of competition, we focus on innovation, developing new products while   improving our existing products to evolving consumer needs.</p>
+                <p>A subtle combination of traditions and trends, our extensive   collection of greatly appetizing baked goods and confections delights   the senses of all age groups and people from different walks of life. The secret of our excellence lies in the meticulous care and detailed craft that goes into each and every one of our products. <a class="readmore text-pink" title="read more" href="/about-us">Read more »</a></p>
+            </div>
+        </div>
+    </div>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+    </script>
+    
+    @*<div class="col-md-3">
+        <div class="categorywrap thumbnail">
+            <a href="~/StoreFront/Index/1">
+                <h2>Dairy</h2>
+                <img src="~/Content/Images/dairyicon.png" alt="" />
+            </a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="categorywrap thumbnail">
+            <a href="~/StoreFront/Index/2">
+                <h2>Sweets &amp; Cakes</h2>
+                <img src="~/Content/Images/meaticon.png" alt="" />
+            </a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="categorywrap thumbnail">
+            <a href="~/StoreFront/Index/3">
+                <h2>Namkeen</h2>
+                <img src="~/Content/Images/bakeryicon.png" alt="" />
+            </a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="categorywraplast thumbnail">
+            <a href="~/StoreFront/Index/4">
+                <h2>Beverages&amp;Cold Drinks</h2>
+                <img src="~/Content/Images/fruiticon.png" alt="" />
+            </a>
+        </div>
+    </div>*@
