@@ -1,4 +1,4 @@
-﻿
+﻿@model MvcAffableBean.Models.OrderDetail 
 <!DOCTYPE html>
 
 <html>
@@ -19,8 +19,8 @@
                 <div class="panel-body">
                     <form name="myform">
                         <div class="form-group">
-                            <p>Thanks for your order! Your order id is: @Model</p>
-                            <p>Please pay Rs.@Model at the tie of delivery </p>
+                            <p>Thanks for your order! Your order id is: <b>"OD-"@Model.Id</b></p>
+                            <p>Please pay<b> Rs.@Model.Amount</b> at the tie of delivery </p>
                             <p>your order will reach you in 45 min.you will recieve a SS when order dispatched to you.</p>
                             How about ordering more delicious sweets in our
                             @Html.ActionLink("store", "Index", "Home")

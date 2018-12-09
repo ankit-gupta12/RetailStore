@@ -14,7 +14,7 @@ namespace MvcAffableBean.Controllers
 
         private MvcAffableBeanContext db = new MvcAffableBeanContext();
         const String PromoCode = "FREE";
-        public ActionResult AddressAndPayment()
+        public ActionResult Addres0sAndPayment()
         {
             return View();
         }
@@ -104,7 +104,7 @@ namespace MvcAffableBean.Controllers
                                              o.UserId == User.Identity.Name
                                         ); 
                     }
-                return isValid ? PartialView("_OrderConfirmationView") : PartialView("_Error");                 
+                return isValid ? PartialView("_OrderConfirmationView", orderdetail) : PartialView("_Error");                 
             }
             catch (Exception ex)
             {

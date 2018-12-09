@@ -208,6 +208,10 @@ textarea {
     -ms-user-select: none;
     user-select: none;
     }
+#grid1.Centergrid {
+   
+    align-items:center
+}
 
 
 

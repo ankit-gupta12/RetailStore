@@ -4,16 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - OP Sweets & Restaurant</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")    
-    <script src="~/Scripts/jquery-1.10.2.js"></script>
-    <script src="~/Scripts/bootstrap.js"></script>    
+   @Styles.Render("~/Content/css")  
+    @*<script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>*@    
     <style>
         .enqBlock {
             padding: 10px 0;
             text-align: center;
             font-family: 'oswaldlight',Helvetica;
-            font-size: 22px;
+            font-size: 16px;
             width: 100%;
             height: 60px;
             background: #EC286F;
@@ -37,7 +36,7 @@
             height: 40px;
             text-align: center;
             background: #141414;
-            font-size: 22px;
+            font-size: 16px;
             font-weight: bold;
         }
         .modal-content {
@@ -86,7 +85,7 @@
         @RenderBody()
         <hr />        
             <div class="footer">
-                <div>We Take Party Orders... <a href="/contact-us#enquire" class="btn btn-lg btn-default">Enquire Now</a></div>                
+                <div>We Take Party Orders... <a href="/contact-us#enquire" class="btn btn-primary btn-sm">Enquire Now</a></div>                
             </div>  
     </div>     
     @Scripts.Render("~/bundles/jquery")

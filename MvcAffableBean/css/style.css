@@ -20,20 +20,15 @@ body a{
 .top-header{
 	background:#5a0f16;
 }
-.top-header-left{
+/*.top-header-left{
 	float:left;
 	width:40%;
-}
+}*/
 .top-header-center{
-	float: left;
-	width: 20%;
 	text-align: center;
 	margin-top: 0.5em;
 }
-.top-header-right{
-	float:left;
-	width:40%;
-}
+
 .top-header-left ul{
 	margin:0;
 	padding:0;
@@ -108,7 +103,6 @@ body a{
 	padding: 0 0.8em;
 	margin: 0.5em 0;
 	display: block;
-	border-right:1px solid #FFF;
 }
 .top-header-right ul li:nth-child(3) a{
 	border-right:none;
@@ -595,8 +589,11 @@ a.order:hover{
 /*--*/
 /*-- footer --*/
 .footer{
-	background:#FFEDE9;
-	padding:4em 0em 0em;
+	background:grey;
+
+}
+.footer .footer-left{
+	margin: 1em 0em;
 }
 .footer h4 {
 	font-size: 1em;
@@ -672,6 +669,7 @@ a.order:hover{
 	color: #7D7F7C;
 	font-size: 1em;
 	margin:1em 0em;
+    text-align:right;
 }
 i.fb {
 	width: 32px;
@@ -2129,18 +2127,10 @@ h4.title {
 	font-size: 1em;
 	margin: 0 1em 0 0em;
 }
-.top-header-left {
-	width: 35%;
-}
 .top-header-right ul {
 	padding: 0;
 }
-.top-header-right {
-	width: 46%;
-}
-.top-header-center {
-	width: 18%;
-}
+
 .head-nav ul li{
 	display:block;
 	float:none;
@@ -2417,6 +2407,7 @@ i.twt {
 }
 .footer {
 	text-align: center;
+
 }
 .bottom-grid-left-grid.text-center {
 	width: 50%;
@@ -2460,17 +2451,11 @@ h4.tag_head {
 	font-size: 0.875em;
 	margin: 0px 14px 0 0em;
 }
-.top-header-left {
-	width: 27%;
-}
 .top-header-center p {
 	font-size: 0.875em;
 }
-.top-header-right {
-	width: 52%;
-}
+
 .top-header-center {
-	width: 21%;
 	margin-top:0.2em;
 }
 .top-header-right ul li a {
@@ -2578,15 +2563,7 @@ h4.tag_head {
 .top-header-right ul li a {
 	padding: 0em 1.5em;
 }
-.top-header-left {
-	width: 21%;
-}
-.top-header-center {
-	width: 27%;
-}
-.top-header-right ul li {
-	margin-left: 1.5em;
-}
+
 .top-header {
 	padding: 6px;
 }
@@ -2756,12 +2733,6 @@ p.product_descr {
 .top-header-left ul li a {
 	font-size: 0.8125em;
 	margin: 0px 18px 0 0em;
-}
-.top-header-left {
-	width: 62%;
-}
-.top-header-center {
-	width: 38%;
 }
 .top-header-right ul li {
 	margin-left: 0.5em;

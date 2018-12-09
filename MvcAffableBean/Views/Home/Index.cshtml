@@ -3,35 +3,21 @@
     Layout = null;
 }
 
-@*<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-    </div>
-</body>
-</html>*@
 
 <!DOCTYPE HTML>
 <html>
 <head>
     <title>Sweet-cakes Website Template | Home :: w3layouts</title>
-    @*<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />*@
-    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <script src="~/Content/Js/jquery.min.js"></script>
-    @*<script src="js/jquery.min.js"></script>*@
     <!-- Custom Theme files -->
     <link href="~/css/style.css" rel="stylesheet" />
     @*<link href="css/style.css" rel='stylesheet' type='text/css' />*@
 
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
     </script>
     <!----webfonts--->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,800,400,600' rel='stylesheet' type='text/css'>
@@ -42,35 +28,26 @@
     <!-- top-header -->
     <div class="top-header">
         <div class="container">
-            <div class="top-header-left">                
-                @*<a href="#" class="toggle-panel">
-                    <span class="icon-navicon"></span></a>*@
-                 <a href="/home" class=""><img  alt="OP Restaurant" /></a>                 
+            <div class="col-xs-4 col-sm-4 top-header-left">
+                <a href="/home" class=""><img alt="OP Restaurant" /></a>
             </div>
-            <div class="top-header-center">
+            <div class=" col-xs-4 col-sm-4 top-header-center">
                 <p><span class="cart"> </span>Call Us<label>09695180014</label></p>
             </div>
-            <div class="top-header-right">
-                @*<a href="~/StoreFront/Index/1" class="btn">Order Online</a>*@            
-                    <ul>
+            <div class="col-xs-4 col-sm-4 top-header-right">
+                <ul>
                     <li><a href="~/StoreFront/Index/1" class="">Order Online</a></li>
                 </ul>
             </div>
-            <div class="clearfix"> </div>
+            @*<div class="clearfix"> </div>*@
         </div>
     </div>
     <!-- /top-header -->
     <!-- main-menu -->
     <div class="main-menu">
         <div class="container">
-            <div class="head-nav">               
-            </div>                      
-            <!-- script-for-nav -->
-            <!-- logo -->
-            @*<div class="logo">
-                <a href="index.html"><img src="images/logo.png" title="Sweetcake" /></a>
-            </div>*@
-            <!-- logo -->
+            <div class="head-nav">
+            </div>
         </div>
     </div>
     <!-- /main-menu -->
@@ -80,24 +57,24 @@
             <!----start-slider-script---->
             <script src="~/Content/Js/ResponsiveSlider.js"></script>
             <script>
-					    // You can also use "$(window).load(function() {"
-					    $(function () {
-					      // Slideshow 4
-					      $("#slider4").responsiveSlides({
-					        auto: true,
-					        pager: true,
-					        nav: true,
-					        speed: 500,
-					        namespace: "callbacks",
-					        before: function () {
-					          $('.events').append("<li>before event fired.</li>");
-					        },
-					        after: function () {
-					          $('.events').append("<li>after event fired.</li>");
-					        }
-					      });
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                    // Slideshow 4
+                    $("#slider4").responsiveSlides({
+                        auto: true,
+                        pager: true,
+                        nav: true,
+                        speed: 500,
+                        namespace: "callbacks",
+                        before: function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        after: function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        }
+                    });
 
-					    });
+                });
             </script>
             <!----//End-slider-script---->
             <!-- Slideshow 4 -->
@@ -195,7 +172,7 @@
                     </li>
                     <li>
                         <img src="~/Content/Images/slide.jpg" class="img-responsive" alt="">
-                        
+
                         <div class="slider-caption">
                             <div class="slider-caption-left text-center">
                                 <h1>ARE YOU LOOKING FOR SWEET, STYLISH AND DELECIOUS BIRTHDAY CAKES?</h1>
@@ -231,7 +208,6 @@
         <!-- /banner -->
     </div>
     <!-- top-grids -->
-    
     <!-- top-grids -->
     <!-- bottom-grids -->
     <div class="bottom-grids">
@@ -242,28 +218,24 @@
                     <p>A staggering chronicle of six decades and still going strong, Karachi Bakery has emerged as a &quot;<strong>True Icon of Hyderabad Baking</strong>&quot; with a reputation that is unmatched to the core. Always a step ahead of competition, we focus on innovation, developing new products while   improving our existing products to evolving consumer needs.</p>
                     <p>A subtle combination of traditions and trends, our extensive   collection of greatly appetizing baked goods and confections delights   the senses of all age groups and people from different walks of life. The secret of our excellence lies in the meticulous care and detailed craft that goes into each and every one of our products. <a class="readmore text-pink" title="read more" href="/about-us">Read more »</a></p>
                 </div>
-            </div>            
-            
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">            
+                <div class="col-xs-6 col-sm-6 footer-left">
+                    <p> Copyright &copy; 2015--2017 OP Restaurant. All Rights Reserved.</p>
+                </div>            
+
+            <div class="col-xs-6 col-sm-6 pull-right footer-bottom">
+                <p><a href="http://www.adroitinfoactive.net/" target="_blank" title="Adroit Infoactive Services Pvt. Ltd.">Website Designed &amp; Developed by ADROIT</a></p>
+            </div>
         </div>
     </div>
     <!-- bottom-grids -->
     <!-- /container -->
     <!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="footer-top">                
-                <div class="copyright">
-                    <div class="container">
-                        Copyright &copy; 2015--2017 OP Restaurant. All Rights Reserved.
-                    </div>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-            <div class="footer-bottom">
-                <p><a href="http://www.adroitinfoactive.net/" target="_blank" title="Adroit Infoactive Services Pvt. Ltd.">Website Designed &amp; Developed by ADROIT</a></p>
-            </div>
-        </div>
-    </div>
     <!-- /footer -->
 </body>
 </html>
