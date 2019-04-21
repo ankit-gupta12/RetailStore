@@ -1,0 +1,11 @@
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.BusinessTier.dll
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.BusinessTier.pdb
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.Common.dll
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.DataTier.dll
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\EntityFramework.dll
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.Common.pdb
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\SST.RS.DataTier.pdb
+F:\Repo\RetailStore\SST.RS.BusinessTier\bin\Debug\EntityFramework.xml
+F:\Repo\RetailStore\SST.RS.BusinessTier\obj\Debug\SST.RS.BusinessTier.csprojResolveAssemblyReference.cache
+F:\Repo\RetailStore\SST.RS.BusinessTier\obj\Debug\SST.RS.BusinessTier.dll
+F:\Repo\RetailStore\SST.RS.BusinessTier\obj\Debug\SST.RS.BusinessTier.pdb

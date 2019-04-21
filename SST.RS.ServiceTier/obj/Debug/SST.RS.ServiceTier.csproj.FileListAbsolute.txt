@@ -1,0 +1,14 @@
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.ServiceTier.dll.config
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.ServiceTier.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.ServiceTier.pdb
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.BusinessTier.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.Common.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.DataTier.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\EntityFramework.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.BusinessTier.pdb
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.Common.pdb
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\SST.RS.DataTier.pdb
+F:\Repo\RetailStore\SST.RS.ServiceTier\bin\Debug\EntityFramework.xml
+F:\Repo\RetailStore\SST.RS.ServiceTier\obj\Debug\SST.RS.ServiceTier.csprojResolveAssemblyReference.cache
+F:\Repo\RetailStore\SST.RS.ServiceTier\obj\Debug\SST.RS.ServiceTier.dll
+F:\Repo\RetailStore\SST.RS.ServiceTier\obj\Debug\SST.RS.ServiceTier.pdb

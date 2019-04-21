@@ -1,0 +1,5 @@
+F:\Repo\RetailStore\SST.RS.Common\bin\Debug\SST.RS.Common.dll
+F:\Repo\RetailStore\SST.RS.Common\bin\Debug\SST.RS.Common.pdb
+F:\Repo\RetailStore\SST.RS.Common\obj\Debug\SST.RS.Common.dll
+F:\Repo\RetailStore\SST.RS.Common\obj\Debug\SST.RS.Common.pdb
+F:\Repo\RetailStore\SST.RS.Common\obj\Debug\SST.RS.Common.csprojResolveAssemblyReference.cache

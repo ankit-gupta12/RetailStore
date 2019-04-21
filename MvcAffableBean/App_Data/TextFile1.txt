@@ -1,6 +1,0 @@
-﻿--steps to refresh db in code first migration
-1) Open Package Manager Console
-2)Run Add-Migration <filename>
-3)Run Update-Database
-----------------------------------update package command--------------------------------------
-

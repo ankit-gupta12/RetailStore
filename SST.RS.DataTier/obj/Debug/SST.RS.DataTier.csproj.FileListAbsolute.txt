@@ -1,0 +1,12 @@
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\EntityFramework.dll
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\SST.RS.DataTier.dll.config
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\SST.RS.DataTier.dll
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\SST.RS.DataTier.pdb
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\EntityFramework.SqlServer.dll
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\SST.RS.Common.dll
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\SST.RS.Common.pdb
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\EntityFramework.xml
+F:\Repo\RetailStore\SST.RS.DataTier\bin\Debug\EntityFramework.SqlServer.xml
+F:\Repo\RetailStore\SST.RS.DataTier\obj\Debug\SST.RS.DataTier.csprojResolveAssemblyReference.cache
+F:\Repo\RetailStore\SST.RS.DataTier\obj\Debug\SST.RS.DataTier.dll
+F:\Repo\RetailStore\SST.RS.DataTier\obj\Debug\SST.RS.DataTier.pdb
