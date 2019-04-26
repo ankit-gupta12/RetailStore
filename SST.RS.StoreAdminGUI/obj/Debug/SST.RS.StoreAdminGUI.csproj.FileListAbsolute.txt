@@ -77,6 +77,6 @@ F:\Repo\RetailStore\SST.RS.StoreAdminGUI\bin\Microsoft.Owin.Security.OAuth.xml
 F:\Repo\RetailStore\SST.RS.StoreAdminGUI\bin\Microsoft.Owin.Security.Google.xml
 F:\Repo\RetailStore\SST.RS.StoreAdminGUI\bin\Microsoft.Owin.Security.Twitter.xml
 F:\Repo\RetailStore\SST.RS.StoreAdminGUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Repo\RetailStore\SST.RS.StoreAdminGUI\obj\Debug\SST.RS.StoreAdminGUI.csprojResolveAssemblyReference.cache
 F:\Repo\RetailStore\SST.RS.StoreAdminGUI\obj\Debug\SST.RS.StoreAdminGUI.dll
 F:\Repo\RetailStore\SST.RS.StoreAdminGUI\obj\Debug\SST.RS.StoreAdminGUI.pdb
-F:\Repo\RetailStore\SST.RS.StoreAdminGUI\obj\Debug\SST.RS.StoreAdminGUI.csprojResolveAssemblyReference.cache

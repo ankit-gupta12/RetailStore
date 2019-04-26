@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="StoreService" CodeBehind="~/SST.RS.ServiceTier.StoreService.cs/" %>

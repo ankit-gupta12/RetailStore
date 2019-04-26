@@ -5,14 +5,15 @@ namespace MvcAffableBean.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<MvcAffableBean.DAL.MvcAffableBeanContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SSTDbContext.StoreDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            
         }
 
-        protected override void Seed(MvcAffableBean.DAL.MvcAffableBeanContext context)
+        protected override void Seed(SSTDbContext.StoreDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

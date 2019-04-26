@@ -52,6 +52,10 @@
     <Compile Include="AppUsersData.cs" />
     <Compile Include="Configuration\Configuration.cs" />
     <Compile Include="Configuration\MvcAffableBeanContext.cs" />
+    <Compile Include="Migrations\201904241455247_newtable.cs" />
+    <Compile Include="Migrations\201904241455247_newtable.Designer.cs">
+      <DependentUpon>201904241455247_newtable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,8 +65,28 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="..\SST.RS.WCFServiceHost\Web.config">
+      <Link>Web.config</Link>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201904241455247_newtable.resx">
+      <DependentUpon>201904241455247_newtable.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\SST.RS.Common.dll" />
+    <Content Include="bin\Debug\SST.RS.Common.pdb" />
+    <Content Include="bin\Debug\SST.RS.DataTier.dll" />
+    <Content Include="bin\Debug\SST.RS.DataTier.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using SST.RS.Common.BusinessObjects;
 
-namespace MvcAffableBean.DAL
+namespace SSTDbContext
 {
-    public class MvcAffableBeanContext:DbContext
+    public class StoreDbContext:DbContext
 
     {
-        public MvcAffableBeanContext() : base("MvcAffableBean")
+        public StoreDbContext() : base("ConnString")
         {
 
         }
-
-        //public DbSet<Category> Categories { get; set; }
+       
+        public DbSet<AppUsers> Categories { get; set; }
 
         //public DbSet<Customer> Customers { get; set; }
 
